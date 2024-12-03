@@ -4,6 +4,7 @@ version = "1.0.0"
 edition = "2021"
 
 [dependencies]
+regex = "1.11.1"
 
 [[bin]]
 name = "day01"
@@ -12,3 +13,7 @@ path = "day01/main.rs"
 [[bin]]
 name = "day02"
 path = "day02/main.rs"
+
+[[bin]]
+name = "day03"
+path = "day03/main.rs"
